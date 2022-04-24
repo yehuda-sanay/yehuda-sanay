@@ -1,0 +1,134 @@
+#grid{
+    display: grid;
+    grid-template-areas:
+    'header header header header'
+    'sidebar main main main'
+    'sidebar main main main'
+    'sidebar main main main'
+    'footer footer footer footer';
+    
+    background-color: aqua;
+    
+}
+#header{
+    background-color: rgb(150, 61, 116);
+    display: flex;
+    grid-area: header; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+ 
+}
+#links{
+    display: flex;
+    justify-content: space-between;
+     
+}
+#links :hover{
+    color: gold;
+    width: 150px;
+    height: 150px;
+}
+#facel{
+    margin-right: 30vh;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    transition: 2s all;
+}
+#facel :hover{
+    width: 150px;
+    height: 150px;
+}
+#gitl{
+    margin-right: 30vh;
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+#insl{
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+
+#sidebar{
+    grid-area: sidebar;
+    background-color: rgb(216, 112, 112);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: large;
+    color: black;
+    
+}
+#allme{
+    color: black;
+    text-decoration: none;
+}
+#sci{
+    color: black;
+    text-decoration: none;
+}
+#armyi{
+    color: black;
+    text-decoration: none;
+}
+#worki{
+    color: black;
+    text-decoration: none;
+}
+#pr{
+    background-color: rgb(219, 7, 7);
+    height: 10vh;
+    font-size: 50px;
+}
+#main{
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+      
+}
+#name{
+    font-size: xx-large;
+}
+#me{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition:3s all;
+}
+#me:hover{
+    width: 230px;
+    height:230px;
+    box-shadow: 20px 20px 15px gray;
+    
+}
+#sc{
+    display: flex;
+    width: 75px;
+    height: 75px;
+}
+#army{
+    display: flex;
+    width: 75px;
+    height: 75px;
+}
+#work{
+    display: flex;
+    width: 75px;
+    height: 75px;
+}
+#footer{
+    background-color: blue;
+    grid-area: footer;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
