@@ -18,6 +18,7 @@
     justify-content: space-around;
     align-items: center;
     height: 15vh;
+    
  
 }
 #links{
@@ -33,24 +34,24 @@
 #facel{
     margin-right: 30vh;
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 40px;
+    height: 40px;
     transition: 2s all;
 }
 #facel :hover{
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
 }
 #gitl{
     margin-right: 30vh;
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 40px;
+    height: 40px;
 }
 #insl{
     display: flex;
-    height: 100px;
-    width: 100px;
+    height: 40px;
+    width: 40px;
 }
 
 #sidebar{
@@ -83,6 +84,11 @@
     background-color: rgb(219, 7, 7);
     height: 10vh;
     font-size: 50px;
+}
+#piano{
+    display: flex;
+    width: 50px;
+    height: 50px;
 }
 #main{
     grid-area: main;

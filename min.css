@@ -6,7 +6,6 @@
     'sidebar main main main'
     'sidebar main main main'
     'footer footer footer footer';
-    
     background-color: aqua;
     
 }
@@ -84,6 +83,22 @@
     height: 10vh;
     font-size: 50px;
 }
+#pic{
+    background-color: red;
+    height: 10vh;
+    font-size: 50px;
+}
+}
+#piano{
+    display: flex;
+    width: 75px;
+    height: 100px;
+    
+}
+#pi{
+    background-color: red;
+}
+
 #main{
     grid-area: main;
     display: flex;
